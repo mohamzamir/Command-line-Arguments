@@ -58,7 +58,7 @@ $ cd <project-directory>
  
  Replace **<project-directory>** with the name of the directory that was created when you cloned the repository.
  
- ### Build the Project
+ ### Step 3: Build the Project
  
  The project uses a **Makefile** for compiling the source code. To build the project, use the **make** command in the terminal:
  
