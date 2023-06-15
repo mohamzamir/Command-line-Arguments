@@ -13,8 +13,13 @@ The syntax for running the tool is as follows:
  ## Arguments
  
 **-s <search_text>:** The text to search for in the input file. This option is required.
+
 **-r <replace_text>:** The text that will replace the search text in the output file. This option is required.
+
 **-w:** Enable wildcard searching of words. This option is optional.
+
 **-l <start_line,end_line>:** The range of lines of the input file to process. The range is inclusive. Lines outside this range are simply copied from the input file to the output file unmodified. If end_line is greater than the number of lines in the file, the tool will read to the end of the file. Note that line numbers start at 1, not 0. This option is optional.
+
 **<input_file>:** Pathname of the input file. This argument is required.
+
 **<output_file>:** Pathname of the output file. This argument is required.
